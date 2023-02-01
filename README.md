@@ -16,7 +16,7 @@ Dar início a depuração do Visual Studio 2022
 
 # Swagger
 
-Geralmente ele iniciará automáticamente no enderelço abaixo
+Geralmente ele iniciará automáticamente no endereço abaixo
 
 http://localhost:5118/swagger/index.html
 
