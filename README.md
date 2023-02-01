@@ -27,48 +27,48 @@ Pode haver auteração da porta
 
 ## FornecedoresByName
 
-GET /api/FornecedoresByName^
+GET /api/FornecedoresByName
  retorna todos os fornecedores
 
-POST /api/FornecedoresByName^
+POST /api/FornecedoresByName
  Insere um fornecedor e um ou mais endereços
 
  Obs: Não cadastrar o CNPJ com pontos, ifens ou barras.
 
-GET /api/FornecedoresByName/{name}^
+GET /api/FornecedoresByName/{name}
  Retorna um fornecedor pelo nome
 
-PUT /api/FornecedoresByName/{id}^
+PUT /api/FornecedoresByName/{id}
  Edita um fornecedor e endereços pelo id
 
-DELETE /api/FornecedoresByName/{id}^
+DELETE /api/FornecedoresByName/{id}
  Deleta um fornecedor pelo id
 
 ## FornecedoresByCnpj
 
-GET /api/FornecedoresByCnpj/{cnpj}^
+GET /api/FornecedoresByCnpj/{cnpj}
  Retorna um fornecedor pelo cnpj
 
  Obs: O parametro do CNPJ sem pontos, ifens ou barras.
 
 ## FornecedoresByCidade
 
-GET /api/FornecedoresByCidade/{cidade}^
+GET /api/FornecedoresByCidade/{cidade}
  Retorna um endereço por cidade
 
 ## Enderecos
 
-GET /api/Enderecos^
+GET /api/Enderecos
  retorna todos os endereços
 
-POST /api/Enderecos^
+POST /api/Enderecos
  Insere um ou mais endereços
 
-GET /api/Enderecos/{id}^
+GET /api/Enderecos/{id}
  Retorna um endereço pelo id
 
-PUT /api/Enderecos/{id}^
+PUT /api/Enderecos/{id}
  Edita um endereço pelo id
 
-DELETE /api/Enderecos/{id}^
+DELETE /api/Enderecos/{id}
  Deleta um endereço pelo id
