@@ -20,7 +20,7 @@ Geralmente ele iniciará automáticamente no enderelço abaixo
 
 http://localhost:5118/swagger/index.html
 
-Pode haver auteração da porta 
+Pode haver alteração da porta 
 
 
 # Requisições
